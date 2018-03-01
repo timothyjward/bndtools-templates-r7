@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repository increment="1519920001000" name="Local" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.bndtools.templates.template"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="4.0.0.201803011013"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="2BF405789C393ABE6A58C87E589E18F6300BEE6C910C01E20E2CB64621923873"/>
+      <attribute name="url" value="org.bndtools.templates.template/org.bndtools.templates.template-4.0.0.jar"/>
+      <attribute name="size" type="Long" value="16521"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="org.bndtools.templates.template"/>
+      <attribute name="bundle-version" type="Version" value="4.0.0.201803011013"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="org.bndtools.templates.template"/>
+      <attribute name="bundle-version" type="Version" value="4.0.0.201803011013"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="Project Template Project (StringTemplate)"/>
+      <attribute name="category" value="nnn/Template Projects"/>
+      <attribute name="dir" value="templates/project"/>
+      <attribute name="icon" value="data:image/gif;base64,R0lGODlhEAAQAPUAAGpcZ25hcHVofruHMfXHWPvkY/7xZ1VomFdrnFxxn3xvkGN3pGl9qYN3oYp+sX2Il3eDm3OBnnWCnHmEmm+Er3aKtHuPt3+Tu42RjJeYhZqZg52cgpGViYaOkYKKlI6EvMzw/+P4/uT4/+X5/+b4/+b5/+n5/+36/+76//D7//H7//T7//X7//T9//X9//j8//n8//j+//n+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADMALAAAAAAQABAAAAafwIFwSBTOjrOBYclsDpDJwufjaCgEAUCBmCR4v2Cl4bkBmc/ojfaZAYne8JI8431yQBdLhcJYJA4iGGYbM4JyJSKHiBhvhB14ehQRCX8nHiUhHDMPICclJ6ApoCqXJRibIB8WDH8pKq8Pch6or68sLLUPISWzECAqMjDCLDIyKhAhIQ8zEREQEBMMzxDSEckQUL4hcCLJ19nP0tTNzthBADs="/>
+      <attribute name="help" value="project.help.xml"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="Run Template Project"/>
+      <attribute name="category" value="nnn/Template Projects"/>
+      <attribute name="dir" value="templates/bndrun"/>
+      <attribute name="icon" value="data:image/gif;base64,R0lGODlhEAAQAPUAAGpcZ25hcHVofruHMfXHWPvkY/7xZ1VomFdrnFxxn3xvkGN3pGl9qYN3oYp+sX2Il3eDm3OBnnWCnHmEmm+Er3aKtHuPt3+Tu42RjJeYhZqZg52cgpGViYaOkYKKlI6EvMzw/+P4/uT4/+X5/+b4/+b5/+n5/+36/+76//D7//H7//T7//X7//T9//X9//j8//n8//j+//n+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADMALAAAAAAQABAAAAafwIFwSBTOjrOBYclsDpDJwufjaCgEAUCBmCR4v2Cl4bkBmc/ojfaZAYne8JI8431yQBdLhcJYJA4iGGYbM4JyJSKHiBhvhB14ehQRCX8nHiUhHDMPICclJ6ApoCqXJRibIB8WDH8pKq8Pch6or68sLLUPISWzECAqMjDCLDIyKhAhIQ8zEREQEBMMzxDSEckQUL4hcCLJ19nP0tTNzthBADs="/>
+      <attribute name="help" value="bndrun.help.xml"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="name" value="Project Template Project (Mustache)"/>
+      <attribute name="category" value="nnn/Template Projects"/>
+      <attribute name="dir" value="templates/project-mustache"/>
+      <attribute name="icon" value="data:image/gif;base64,R0lGODlhEAAQAPUAAGpcZ25hcHVofruHMfXHWPvkY/7xZ1VomFdrnFxxn3xvkGN3pGl9qYN3oYp+sX2Il3eDm3OBnnWCnHmEmm+Er3aKtHuPt3+Tu42RjJeYhZqZg52cgpGViYaOkYKKlI6EvMzw/+P4/uT4/+X5/+b4/+b5/+n5/+36/+76//D7//H7//T7//X7//T9//X9//j8//n8//j+//n+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADMALAAAAAAQABAAAAafwIFwSBTOjrOBYclsDpDJwufjaCgEAUCBmCR4v2Cl4bkBmc/ojfaZAYne8JI8431yQBdLhcJYJA4iGGYbM4JyJSKHiBhvhB14ehQRCX8nHiUhHDMPICclJ6ApoCqXJRibIB8WDH8pKq8Pch6or68sLLUPISWzECAqMjDCLDIyKhAhIQ8zEREQEBMMzxDSEckQUL4hcCLJ19nP0tTNzthBADs="/>
+      <attribute name="help" value="project.help.xml"/>
+    </capability>
+  </resource>
+</repository>

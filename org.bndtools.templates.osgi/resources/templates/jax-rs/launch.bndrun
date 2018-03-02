@@ -1,0 +1,12 @@
+-runfw: org.apache.felix.framework;version=5
+-runee: JavaSE-1.8
+-runprovidedcapabilities: \${native_capability}
+
+-resolve.effective: active
+
+-runproperties: org.osgi.service.http.port=8080
+
+-runrequires: \
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
+	osgi.identity;filter:='(osgi.identity=$projectName$)'

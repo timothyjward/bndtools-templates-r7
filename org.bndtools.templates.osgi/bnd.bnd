@@ -51,6 +51,15 @@ project-template-jax-rs:\
 		help=jax-rs-help.xml;\
 		icon="${jax-rs-icon}"
 
+project-template-jpa-dao:\
+	org.bndtools.template; org.bndtools.template=project;\
+		name="JPA Data Access Component";\
+		category=${category};\
+		ranking:Double=996;\
+		dir=templates/jpa-dao;\
+		help=jpa-dao-help.xml;\
+		icon="${jpa-dao-icon}"
+
 launch-template-felix:\
 	org.bndtools.template; org.bndtools.template=bndrun;\
 		name=Felix 4+;\
@@ -66,6 +75,7 @@ Provide-Capability: \
 	${project-template-integration-test},\
 	${project-template-servlet},\
 	${project-template-jax-rs},\
+	${project-template-jpa-dao},\
 	${launch-template-felix}
 
 gifdataurl: data:image/gif;base64
@@ -76,4 +86,5 @@ component-icon: ${gifdataurl},${base64;icons/cog.gif}
 integration-test-icon: ${gifdataurl},${base64;icons/junit.gif}
 servlet-icon: ${gifdataurl},${base64;icons/servlet.gif}
 jax-rs-icon: ${pngdataurl},${base64;icons/whiteboard.png}
+jpa-dao-icon: ${pngdataurl},${base64;icons/database.png}
 felix-icon: ${gifdataurl},${base64;icons/felix.gif}

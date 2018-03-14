@@ -59,6 +59,16 @@ project-template-jpa-dao:\
 		dir=templates/jpa-dao;\
 		help=jpa-dao-help.xml;\
 		icon="${jpa-dao-icon}"
+		
+project-template-app:\
+	org.bndtools.template;\
+		org.bndtools.template=project; \
+		name=Application Project; \
+		category=${category}; \
+		ranking:Double=1000;\
+		dir=templates/app; \
+		icon="${app-icon}";\
+		help=app-help.xml
 
 launch-template-felix:\
 	org.bndtools.template; org.bndtools.template=bndrun;\
@@ -76,6 +86,7 @@ Provide-Capability: \
 	${project-template-servlet},\
 	${project-template-jax-rs},\
 	${project-template-jpa-dao},\
+	${project-template-app},\
 	${launch-template-felix}
 
 gifdataurl: data:image/gif;base64
@@ -87,4 +98,5 @@ integration-test-icon: ${gifdataurl},${base64;icons/junit.gif}
 servlet-icon: ${gifdataurl},${base64;icons/servlet.gif}
 jax-rs-icon: ${pngdataurl},${base64;icons/whiteboard.png}
 jpa-dao-icon: ${pngdataurl},${base64;icons/database.png}
+app-icon: ${gifdataurl},${base64;icons/jar_exec.gif}
 felix-icon: ${gifdataurl},${base64;icons/felix.gif}

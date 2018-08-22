@@ -1,8 +1,12 @@
--runfw: org.apache.felix.framework;version=5
+-runfw: org.eclipse.osgi;version=3.13
 -runee: JavaSE-1.8
 -runprovidedcapabilities: \${native_capability}
 
 -resolve.effective: active
+
+-runproperties: \
+	osgi.console=,\
+	osgi.console.enable.builtin=false
 
 -runbundles:\
 	org.apache.felix.gogo.runtime,\
